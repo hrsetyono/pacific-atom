@@ -1,0 +1,19 @@
+{
+  "name": "pacific-atom",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Inspired from Codecademy editor and Google Material design.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "codecademy",
+    "twig",
+    "windows"
+    "material",
+  ],
+  "repository": "https://github.com/hrsetyono/pacific-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
