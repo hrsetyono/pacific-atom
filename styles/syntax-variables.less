@@ -1,26 +1,39 @@
 // This defines all syntax variables that syntax themes must implement when they
 // include a syntax-variables.less file.
 
+// Color Theme
+@pac-red: #ff8973;
+@pac-orange: #e7a358;
+@pac-yellow: #ffe083;
+@pac-green: #c5e88c;
+@pac-blue: #a4cccb; // #b3ccff;
+@pac-purple: #ae9ad3;
+
+@pac-white: #ffffff;
+@pac-passive: #5b798c;
+@pac-dark: #3b4d5a;
+@pac-darker: #2a3034; // #3b3a32
+
 // General colors
-@syntax-text-color: #f8f8f2;
-@syntax-cursor-color: #f8f8f0;
+@syntax-text-color: @pac-white;
+@syntax-cursor-color: @pac-white;
 @syntax-selection-color: #2a3034;
 @syntax-background-color: #354551;
 
 // Guide colors
-@syntax-wrap-guide-color: #3b3a32;
-@syntax-indent-guide-color: #3b3a32;
-@syntax-invisible-character-color: #3b3a32;
+@syntax-wrap-guide-color: @pac-dark;
+@syntax-indent-guide-color: @pac-dark;
+@syntax-invisible-character-color: @pac-dark;
 
 // For find and replace markers
 @syntax-result-marker-color: #3b3a32;
 @syntax-result-marker-color-selected: #f8f8f2;
 
 // Gutter colors
-@syntax-gutter-text-color: #f8f8f2;
-@syntax-gutter-text-color-selected: #f8f8f2;
-@syntax-gutter-background-color: #354551;
-@syntax-gutter-background-color-selected: #2a3034;
+@syntax-gutter-text-color: rgba(204, 204, 204, .5);
+@syntax-gutter-text-color-selected: lighten(@syntax-gutter-text-color, 20%);
+@syntax-gutter-background-color: @syntax-background-color;
+@syntax-gutter-background-color-selected: @syntax-selection-color;
 
 // For git diff info. i.e. in the gutter
 // These are static and were not extracted from your textmate theme
@@ -28,15 +41,3 @@
 @syntax-color-added: #A8FF60;
 @syntax-color-modified: #E9C062;
 @syntax-color-removed: #CC6666;
-
-// Color Theme
-@pac-red: #ff8973;
-@pac-orange: #e7a358;
-@pac-yellow: #ffe083;
-@pac-green: #c5e88c;
-@pac-blue: #a4cccb;
-@pac-purple: #ae9ad3;
-
-@pac-white: #ffffff;
-@pac-passive: #5b798c;
-@pac-dark: #3b4d5a;

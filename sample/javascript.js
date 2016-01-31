@@ -1,11 +1,15 @@
-// Cross-browser xml parsing
-var parseXML = function( data ) {
+// This is a comment
+function helloWorld(text) {
+  console.log("Hello " + text);
+}
+
+var parseXML = function(data) {
   var xml, tmp;
   if ( !data || typeof data !== "string" ) {
     return null;
   }
   try {
-    if ( window.DOMParser ) { // Standard
+    if (window.DOMParser) { // Standard
       tmp = new DOMParser();
       xml = tmp.parseFromString( data , "text/xml" );
     } else { // IE
@@ -45,7 +49,7 @@ var proxy = function( fn, context ) {
   };
 
   // Set the guid of unique handler to the same of original handler, so it can be removed
-  proxy.guid = fn.guid = fn.guid || jQuery.guid++;
+  proxy.guid = fn.guid = fn.guid.asd || jQuery.guid++;
 
   return proxy;
 };
@@ -53,7 +57,7 @@ var proxy = function( fn, context ) {
 Sound.play = function() {}
 Sound.prototype = { something; }
 Sound.prototype.play = function() {}
-Sound.prototype.play = myfunc
+Sound.prototype.play = myfun;
 var parser = document.createElement('a');
 parser.href = "http://example.com:3000/pathname/?search=test#hash";
 parser.hostname; // => "example.com"

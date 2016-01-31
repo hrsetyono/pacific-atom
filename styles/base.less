@@ -108,7 +108,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .variable.parameter {
   font-style: italic;
-  color: @pac-orange;
+  color: @pac-white;
 }
 
 .entity.name.tag {
@@ -724,10 +724,73 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 // CSS and SASS
 .source.css {
-  .id .punctuation { color: @pac-yellow; }  
+  .id .punctuation { color: @pac-yellow; }
+
+  .property-value {
+    .variable { color: @pac-blue; }
+    .parameter { color: @pac-white; font-style: normal; }
+  }
 }
 
 .source.scss {
+  .include {
+    .support,
+    .other { color: @pac-red; }
+  }
+
   .unit { color: @pac-white; }
   .numeric + .unit { color: @pac-purple; }
+
+  .mixin,
+  .function {
+    .keyword,
+    .at-rule,
+    .name,
+    .misc { color: @pac-orange; }
+
+    .variable { font-style: italic; }
+  }
+
+  .media {
+    .support.constant {font-style: italic; color: @pac-red; }
+  }
+
+  .property-list {
+    .entity.tag { color: @pac-white; }
+  }
+}
+
+// HTML
+.html {
+  .doctype { color: @pac-red; }
+
+  .tag.other {
+    .punctuation,
+    .name { color: @pac-blue; }
+  }
+}
+
+// JAVASCRIPT
+.source.js {
+  .function {
+    .type { color: @pac-orange; }
+    .name { color: @pac-white; }
+    .type + .name { color: @pac-orange; }
+  }
+
+  .variable,
+  .variable.property { color: @pac-white; }
+
+  .keyword {
+    &.new,
+    &.typeof,
+    &.assignment,
+    &.logical,
+    &.comparison,
+    &.increment { color: @pac-blue; }
+  }
+
+  // method call
+  .method.delimiter + .function,
+  .method-call .function { color: @pac-green; }
 }
