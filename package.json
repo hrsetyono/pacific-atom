@@ -1,10 +1,11 @@
 {
-  "name": "pacific-atom",
+  "name": "pacific-dark",
   "theme": "syntax",
-  "version": "0.1.0",
-  "description": "Inspired from Codecademy editor and Google Material design.",
+  "version": "0.2.0",
+  "description": "A simple theme that blend well with One Dark UI.",
   "keywords": [
     "syntax",
+    "dark",
     "theme",
     "codecademy",
     "twig",

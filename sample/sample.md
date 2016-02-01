@@ -4,7 +4,7 @@
 Alternate Header 1
 =====================
 
->Knowledge is knowing a tomato is a fruit, Wisdom is not putting it in fruit salad
+> Knowledge is knowing a tomato is a fruit, Wisdom is not putting it in fruit salad
 
 Bold text appears as **bold**. The same treatment goes to *italic*.
 

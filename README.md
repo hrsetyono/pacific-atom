@@ -1,50 +1,39 @@
-Pacific - Atom Theme
-========
+# Pacific - Atom Theme
 
-A theme inspired from Codecademy editor and Google Material design.
+A simple theme that blend well with One Dark UI.
 
 The color scheme is optimized to be distinctive while still being easy on the eye. Also fits nicely on Windows 10.
-
-**Note** This theme is ported from [Sublime Text version](https://github.com/hrsetyono/theme_pacific), thus the screenshot below is from Sublime.
 
 Screenshot
 ------------------
 
-![Pacific Dark - HTML](http://cdn.setyono.net/pacific/sample-html.jpg)
+**HTML**
 
-![Pacific Dark - Overlay](http://cdn.setyono.net/pacific/sample-overlay.jpg)
+![Pacific Dark - HTML](http://cdn.setyono.net/pacific-dark/html.jpg)
+
+**JAVASCRIPT**
+
+![Pacific Dark - JavaScript](http://cdn.setyono.net/pacific-dark/javascript.jpg)
 
 More samples:
 
-- [HTML](http://cdn.setyono.net/pacific/sample-html.jpg)
+- [CSS with Sass](http://cdn.setyono.net/pacific-dark/css.jpg)
 
-- [CSS with Sass](http://cdn.setyono.net/pacific/sample-css.jpg)
+- [JSON](http://cdn.setyono.net/pacific-dark/json.jpg)
 
-- [JavaScript](http://cdn.setyono.net/pacific/sample-javascript.jpg)
+- [PHP](http://cdn.setyono.net/pacific-dark/php.jpg)
 
-- [PHP](http://cdn.setyono.net/pacific/sample-php.jpg)
+- [Ruby](http://cdn.setyono.net/pacific-dark/ruby.jpg)
 
-- [Ruby](http://cdn.setyono.net/pacific/sample-ruby.jpg)
+- [Python](http://cdn.setyono.net/pacific-dark/python.jpg)
 
-- [Python](http://cdn.setyono.net/pacific/sample-python.jpg)
-
-- [Markdown](http://cdn.setyono.net/pacific/sample-markdown.jpg)
+- [Markdown](http://cdn.setyono.net/pacific-dark/markdown.jpg)
 
 Credit
 -------------------
 
-Pacific Theme is based on:
+This theme inspired from Codecademy editor and Google Material design.
 
-- [Dark Eight](https://github.com/ShawnMcCool/theme-dark-eight)
-
-- [Monokai Extended](https://github.com/jonschlinkert/sublime-monokai-extended)
-
-With inspiration from:
-
-- [Codecademy](http://codecademy.com/)
-
-- [Material Theme](https://github.com/equinusocio/material-theme)
-
-- [Neon Color Scheme](https://github.com/MattDMo/Neon-color-scheme)
+It is converted from my [Sublime Text version](https://github.com/hrsetyono/theme_pacific) that is based on [Monokai Extended](https://github.com/jonschlinkert/sublime-monokai-extended).
 
 Also thank you to everyone who have given feedbacks and reported some bugs.

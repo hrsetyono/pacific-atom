@@ -1,10 +1,17 @@
 // Github Flavored Markdown
 .gfm {
+  .italic { font-style: italic; }
+  .bold { font-weight: bold; }
+  .underline { text-decoration: none; }
+
+  .heading { color: @pac-red; }
   .link, .entity { color: @pac-yellow; }
   .markup.underline { color: @pac-passive; }
 
-  .comment, .quote { color: @pac-purple; font-style: italic; }
+  .comment, .quote { color: @pac-green; font-style: italic; }
   .raw { color: @pac-blue; }
+
+  .list { color: @pac-purple; }
 }
 
 // JSON

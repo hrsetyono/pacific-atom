@@ -79,10 +79,6 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @pac-white;
 }
 
-.keyword {
-  color: @pac-red;
-}
-
 .storage {
   color: @pac-red;
 }
@@ -195,7 +191,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .punctuation.section.tag.twig {
-  color: @pac-white;
+  color: @pac-blue;
 }
 
 .variable.parameter.handlebars {
@@ -290,8 +286,8 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .storage.type.function.js {
-  font-style: italic;
-  color: @pac-blue;
+  // font-style: italic;
+  // color: @pac-blue;
 }
 
 .constant.numeric.js {
@@ -326,10 +322,6 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @pac-blue;
 }
 
-.storage.type.function.php {
-  color: @pac-blue;
-}
-
 .constant.numeric.php {
   color: @pac-purple;
 }
@@ -344,10 +336,6 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .keyword.operator.string.php {
   color: @pac-white;
-}
-
-.keyword.operator.class.php {
-  color: @pac-red;
 }
 
 .storage.modifier.extends.php, .storage.type.class.php {
@@ -365,11 +353,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .storage.type.php {
-  color: @pac-blue;
+  // color: @pac-blue;
 }
 
 .entity.name.function.php {
-  color: @pac-green;
+  // color: @pac-green;
 }
 
 .entity.name.type.class.php, .meta.function-call.php, .meta.function-call.static.php, .meta.function-call.object.php, .source.php.embedded.block.html .support.function {
@@ -529,57 +517,6 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @pac-blue;
 }
 
-.text.html.markdown {
-}
-
-.text.html.markdown .markup.raw.inline {
-  color: @pac-blue;
-}
-
-.text.html.markdown .meta.dummy.line-break {
-}
-
-.markdown.heading, .markup.heading, .markup.heading .entity.name, .markup.heading.markdown .punctuation.definition.heading.markdown {
-  color: @pac-red;
-}
-
-.markup.italic {
-  font-style: italic;
-}
-
-.markup.bold {
-  font-weight: bold;
-}
-
-.markup.underline {
-  text-decoration: none;
-}
-
-.string.other.link.title.markdown {
-  text-decoration: underline;
-  color: @pac-yellow;
-}
-
-.markup.raw.block {
-  color: @pac-blue;
-}
-
-.punctuation.definition.list_item.markdown {
-  color: @pac-red;
-}
-
-.markup.raw.block.fenced.markdown {
-  color: @pac-blue;
-}
-
-.punctuation.definition.fenced.markdown, .variable.language.fenced.markdown {
-  color: @pac-blue;
-}
-
-.variable.language.fenced.markdown {
-  color: @pac-blue;
-}
-
 .meta.separator {
   font-weight: bold;
   color: @pac-passive;
@@ -722,6 +659,23 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @pac-white;
 }
 
+
+// GLOBAL
+.function {
+  .storage.type { font-style: italic; }
+
+  .storage.type,
+  .entity.name { color: @pac-green; }
+}
+
+.keyword {
+  color: @pac-red;
+}
+
+.operator {
+  color: @pac-blue;
+}
+
 // CSS and SASS
 .source.css {
   .id .punctuation { color: @pac-yellow; }
@@ -763,32 +717,17 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 // HTML
 .html {
   .doctype { color: @pac-red; }
-
-  .tag.other {
-    .punctuation,
-    .name { color: @pac-blue; }
-  }
 }
 
 // JAVASCRIPT
 .source.js {
   .function {
-    .type { color: @pac-orange; }
     .name { color: @pac-white; }
-    .type + .name { color: @pac-orange; }
+    .type + .name { color: @pac-green; }
   }
 
   .variable,
   .variable.property { color: @pac-white; }
-
-  .keyword {
-    &.new,
-    &.typeof,
-    &.assignment,
-    &.logical,
-    &.comparison,
-    &.increment { color: @pac-blue; }
-  }
 
   // method call
   .method.delimiter + .function,
