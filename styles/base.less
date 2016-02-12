@@ -269,7 +269,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .meta.function.js, .entity.name.function.js, .support.function.dom.js {
-  color: @pac-green;
+  color: @pac-white;
 }
 
 .support.function.dom.js {
@@ -706,11 +706,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   }
 
   .media {
-    .support.constant {font-style: italic; color: @pac-red; }
-  }
-
-  .property-list {
-    .entity.tag { color: @pac-white; }
+    .support.constant {font-style: italic; }
   }
 }
 
@@ -726,10 +722,8 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
     .type + .name { color: @pac-green; }
   }
 
-  .variable,
+  .variable { color: @pac-blue; }
   .variable.property { color: @pac-white; }
 
-  // method call
-  .method.delimiter + .function,
-  .method-call .function { color: @pac-green; }
+  .function-call .variable { color: @pac-white; }
 }

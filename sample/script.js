@@ -1,6 +1,7 @@
 // Cross-browser xml parsing
 var parseXML = function( data ) {
   var xml, tmp;
+  $(".container").addClass("opened");
   if ( !data || typeof data !== "string" ) {
     return null;
   }

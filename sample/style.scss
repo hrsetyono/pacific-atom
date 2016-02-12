@@ -19,6 +19,12 @@ $color: #333;
   &:hover + .menu {
     color: #ccc;
     transform: translateX(10px);
+
+    a { color: black; }
+  }
+
+  &:hover {
+    color: black;
   }
 }
 

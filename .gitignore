@@ -1,4 +1,6 @@
 screenshot/
+sample/script-full.js
+sample/style-full.scss
 
 # Windows image file caches
 Thumbs.db
