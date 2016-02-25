@@ -2,6 +2,8 @@ screenshot/
 sample/script-full.js
 sample/style-full.scss
 
+npm-debug.log
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

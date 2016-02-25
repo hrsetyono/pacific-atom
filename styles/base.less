@@ -116,11 +116,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .support.function {
-  color: @pac-blue;
+  color: @pac-white;
 }
 
 .support.constant {
-  color: @pac-blue;
+  color: @pac-purple;
 }
 
 .support.type, .support.class {
@@ -132,7 +132,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .string .constant {
-  color: @pac-blue;
+  color: @pac-purple;
 }
 
 .string.regexp, .keyword.operator.regexp {
@@ -178,21 +178,33 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @pac-green;
 }
 
-.text.html.basic .meta.tag.structure.any.html .punctuation.definition.string.begin.html, .punctuation.definition.string.begin.html, .punctuation.definition.string.end.html {
-  color: @pac-yellow;
-}
 
 .punctuation.definition.tag.end, .punctuation.definition.tag.begin, .punctuation.definition.tag {
   color: @pac-red;
 }
 
-.keyword.control.twig, .keyword.operator.arithmetic.twig, .keyword.operator.assignment.twig, .keyword.operator.comparison.twig, .keyword.operator.bitwise.twig, .keyword.operator.logical.twig, .keyword.operator.other.twig {
-  color: @pac-blue;
+//////////
+
+.twig {
+  .control,
+  .operator,
+  .bitwise + .function {
+    color: @pac-blue;
+  }
+
+  .punctuation { color: @pac-white; }
+  .string { color: @pac-yellow; }
+  .section { color: @pac-blue; }
+
+  .comment { color: @pac-passive; }
 }
 
-.punctuation.section.tag.twig {
-  color: @pac-blue;
+.comment .twig {
+  color: @pac-passive;
 }
+
+
+//////////
 
 .variable.parameter.handlebars {
   color: @pac-orange;
@@ -724,6 +736,21 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
   .variable { color: @pac-blue; }
   .variable.property { color: @pac-white; }
+}
 
-  .function-call .variable { color: @pac-white; }
+// ANGULAR
+// enabled by installing "angularjs" Package
+
+.string.angular { color: @pac-white; }
+.tag.block.angular { color: @pac-red !important; }
+
+.template.angular {
+  .support,
+  .property { color: @pac-white; }
+}
+
+.attribute.angular,
+.attribute-name.angular,
+.punctuation.block.angular {
+  color: @pac-blue !important;
 }
