@@ -1,3 +1,7 @@
+## 0.4.3 - Minor TWIG highlighting
+
+* Better highlighting on TWIG
+
 ## 0.4.2 - Minor color fixes
 * `$this` keyword in Javascript no longer has blue color
 * Remove some colored text when commenting in TWIG
