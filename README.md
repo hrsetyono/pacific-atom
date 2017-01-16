@@ -4,6 +4,15 @@ A simple theme that blend well with One Dark UI.
 
 The color scheme is optimized to be distinctive while still being easy on the eye. Also fits nicely on Windows 10.
 
+NOTICE: This theme is also available for **Sublime Text** [here](https://github.com/hrsetyono/theme_pacific).
+
+Installation
+------------------
+
+1. In Atom, open File > Settings > Install.
+1. Search for `pacific-dark` but toggle the "Theme" button at the right of search bar first.
+1. Install then activate it in Themes > Syntax Theme dropdown. (If it's not listed, restart Atom).
+
 Screenshot
 ------------------
 

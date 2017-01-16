@@ -1,3 +1,7 @@
+## 0.4.2 - Minor color fixes
+* `$this` keyword in Javascript no longer has blue color
+* Remove some colored text when commenting in TWIG
+
 ## 0.4.1 - Angular support
 * Added Angular highlighting (require `angularjs` package).
 
