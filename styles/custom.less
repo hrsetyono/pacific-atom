@@ -1,59 +1,59 @@
 // HTML
-.constant.character .entity {
+.syntax--constant.syntax--character .syntax--entity {
   color: @pac-purple;
 }
 
 // TWIG
-.comment .twig .function {
+.syntax--comment .syntax--twig .syntax--function {
   color: @pac-passive;
 }
 
 // JAVASCRIPT
-.source.js {
-  .var + .variable {
+.syntax--source.syntax--js {
+  .syntax--var + .syntax--variable {
     color: @pac-white;
   }
 }
 
 // Github Flavored Markdown
-.gfm {
-  .italic { font-style: italic; }
-  .bold { font-weight: bold; }
-  .underline { text-decoration: none; }
+.syntax--gfm {
+  .syntax--italic { font-style: italic; }
+  .syntax--bold { font-weight: bold; }
+  .syntax--underline { text-decoration: none; }
 
-  .heading { color: @pac-red; }
-  .link, .entity { color: @pac-yellow; }
-  .markup.underline { color: @pac-passive; }
+  .syntax--heading { color: @pac-red; }
+  .syntax--link, .syntax--entity { color: @pac-yellow; }
+  .syntax--markup.syntax--underline { color: @pac-passive; }
 
-  .comment, .quote { color: @pac-green; font-style: italic; }
-  .raw { color: @pac-blue; }
+  .syntax--comment, .syntax--quote { color: @pac-green; font-style: italic; }
+  .syntax--raw { color: @pac-blue; }
 
-  .list { color: @pac-purple; }
+  .syntax--list { color: @pac-purple; }
 }
 
 // JSON
-.source.json {
-  .meta { color: @pac-white; } // parentheses
+.syntax--source.syntax--json {
+  .syntax--meta { color: @pac-white; } // parentheses
 
   // json key
-  .meta .string,
-  .meta .meta .meta .meta .meta .meta .meta .meta .meta .string,
-  .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .string { color: @pac-blue; }
+  .syntax--meta .syntax--string,
+  .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--string,
+  .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--string { color: @pac-blue; }
 
-  .meta .meta .meta .string,
-  .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .string,
-  .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .string { color: @pac-green; }
+  .syntax--meta .syntax--meta .syntax--meta .syntax--string,
+  .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--string,
+  .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--string { color: @pac-green; }
 
-  .meta .meta .meta .meta .meta .string,
-  .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .string { color: @pac-yellow; }
+  .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--string,
+  .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--string { color: @pac-yellow; }
 
-  .meta .meta .meta .meta .meta .meta .meta .string,
-  .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .string { color: @pac-red; }
+  .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--string,
+  .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--meta .syntax--string { color: @pac-red; }
 
   // json value
-  .key-value + .string {
+  .syntax--key-value + .syntax--string {
     color: @pac-white !important;
 
-    .punctuation { color: @pac-white !important; }
+    .syntax--punctuation { color: @pac-white !important; }
   }
 }
