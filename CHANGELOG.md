@@ -1,4 +1,4 @@
-## 0.4.6 - Fix depreciation in Atom 1.3
+## 0.5.0 - Fix depreciation in Atom 1.3
 
 * Fix depreciation notice by adding "syntax--" to most styling. Thanks to [wilejos](https://github.com/hrsetyono/pacific-atom/pull/4)
 
