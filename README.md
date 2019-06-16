@@ -4,7 +4,10 @@ A simple theme that blend well with One Dark UI.
 
 The color scheme is optimized to be distinctive while still being easy on the eye. Also fits nicely on Windows 10.
 
-NOTICE: This theme is also available for [Sublime Text](https://github.com/hrsetyono/theme_pacific) and [Visual Studio Code](https://github.com/hrsetyono/pacific-vscode)
+## Port
+
+- [Sublime Text 3 »](https://github.com/hrsetyono/theme_pacific)
+- [Visual Studio Code »](https://github.com/hrsetyono/pacific-vscode)
 
 Installation
 ------------------
