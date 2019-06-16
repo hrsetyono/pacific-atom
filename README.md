@@ -4,7 +4,7 @@ A simple theme that blend well with One Dark UI.
 
 The color scheme is optimized to be distinctive while still being easy on the eye. Also fits nicely on Windows 10.
 
-NOTICE: This theme is also available for **Sublime Text** [here](https://github.com/hrsetyono/theme_pacific).
+NOTICE: This theme is also available for [Sublime Text](https://github.com/hrsetyono/theme_pacific) and [Visual Studio Code](https://github.com/hrsetyono/pacific-vscode)
 
 Installation
 ------------------
@@ -18,25 +18,25 @@ Screenshot
 
 **HTML**
 
-![Pacific Dark - HTML](http://cdn.setyono.net/pacific-dark/html.jpg)
+![Pacific Dark - HTML](https://raw.github.com/hrsetyono/cdn/master/pacific-atom/html.jpg)
 
 **JAVASCRIPT**
 
-![Pacific Dark - JavaScript](http://cdn.setyono.net/pacific-dark/javascript.jpg)
+![Pacific Dark - JavaScript](https://raw.github.com/hrsetyono/cdn/master/pacific-atom/javascript.jpg)
 
 More samples:
 
-- [CSS with Sass](http://cdn.setyono.net/pacific-dark/css.jpg)
+- [CSS with Sass](https://raw.github.com/hrsetyono/cdn/master/pacific-atom/css.jpg)
 
-- [JSON](http://cdn.setyono.net/pacific-dark/json.jpg)
+- [JSON](https://raw.github.com/hrsetyono/cdn/master/pacific-atom/json.jpg)
 
-- [PHP](http://cdn.setyono.net/pacific-dark/php.jpg)
+- [PHP](https://raw.github.com/hrsetyono/cdn/master/pacific-atom/php.jpg)
 
-- [Ruby](http://cdn.setyono.net/pacific-dark/ruby.jpg)
+- [Ruby](https://raw.github.com/hrsetyono/cdn/master/pacific-atom/ruby.jpg)
 
-- [Python](http://cdn.setyono.net/pacific-dark/python.jpg)
+- [Python](https://raw.github.com/hrsetyono/cdn/master/pacific-atom/python.jpg)
 
-- [Markdown](http://cdn.setyono.net/pacific-dark/markdown.jpg)
+- [Markdown](https://raw.github.com/hrsetyono/cdn/master/pacific-atom/markdown.jpg)
 
 Credit
 -------------------
